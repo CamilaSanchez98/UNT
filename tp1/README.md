@@ -21,7 +21,7 @@ Para configurar un _.gitignore_ se siguen los siguientes pasos:
 ❗**IMPORTANTE: cada línea debe contener un solo patrón o archivo.**
 
 ```
-_Ejemplo: Ignoramos el archivo ignorado.txt_
+Ejemplo: Ignoramos el archivo ignorado.txt
 - Dentro del archivo `.gitignore` escribimos la línea
 
 ignorado.txt
@@ -34,7 +34,7 @@ ignorado.txt
 3. Si deseas ignorar archivos con una determinada extension pueses usar el patrón de coincidencia `*.extension`, o bien según un directorio completo con su contenido inclusive haciendo uso de su nombre con `/nombre_del_directorio`
 
 ```
-_Ejemplo: Ignoramos el directorio de dependencias de Node.js, archivos temporales y archivos de compilación_
+Ejemplo: Ignoramos el directorio de dependencias de Node.js, archivos temporales y archivos de compilación
 - Dentro del archivo `.gitignore` escribimos las líneas
 
 *.class
