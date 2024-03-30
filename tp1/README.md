@@ -1,6 +1,6 @@
 # Archivo .gitignore 🎉
 
-El archivo _.gitignore_ es un archivo que contiene configuraciones que usará Git para especificar cuales serán los archivos y directorios que se deben ignorar al momento de trakear y commitear archivos a nuestro repositorio. A continuacion veamos las ventajas de hacer uso de éste.
+El archivo _.gitignore_ es un archivo que contiene configuraciones que usará Git para especificar cuales serán los archivos y directorios que se deben ignorar al momento de trackear y commitear archivos a nuestro repositorio. A continuacion veamos las ventajas de hacer uso de éste.
 
 ## ¿Por qué es conveniente incluirlo? 🤔
 
@@ -31,7 +31,7 @@ ignorado.txt
 ❗**IMPORTANTE: si el archivo que deseamos ignorar ya está bajo seguimiento de Git, es decir ya ha sido confimado en el repositorio pero queremos dejar de incluirlo en futuros commits, debemos eliminarlo del área de seguimiento(staging area) sin eliminarlo de nuestro sistema de archivos local.**
 **Para ello usamos el comando `git rm --cached nombre_del_archivo.txt` . ¡No olvides hacer el commit para confirmar estos nuevos cambios en tu repo!**
 
-3. Si deseas ignorar archivos con una determinada extension pueses usar el patrón de coincidencia `*.extension`, o bien según un directorio completo con su contenido inclusive haciendo uso de su nombre con `/nombre_del_directorio`
+3. Si deseas ignorar archivos con una determinada extension puedes usar el patrón de coincidencia `*.extension`, o bien según un directorio completo con su contenido inclusive haciendo uso de su nombre con `/nombre_del_directorio`
 
 ```
 Ejemplo: Ignoramos el directorio de dependencias de Node.js, archivos temporales y archivos de compilación
@@ -41,7 +41,7 @@ Ejemplo: Ignoramos el directorio de dependencias de Node.js, archivos temporales
 *.tmp
 /node_modules
 
-- Gaurdamos
+- Guardamos
 ```
 
 4. Finalmente, luego de guardar los cambios, quedará listo para ser agregado en nuestro próximo commit.
