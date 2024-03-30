@@ -1,6 +1,6 @@
 #Archivo .gitignore 🎉
 
-El archivo _.gitignore._ es un archivo que contiene configuraciones que usará Git para especificar cuales serán los archivos y directorios que se deben ignorar al momento de trakear y commitear archivos a nuestro repositorio. A continuacion veamos las ventajas de hacer uso de éste.
+El archivo _.gitignore_ es un archivo que contiene configuraciones que usará Git para especificar cuales serán los archivos y directorios que se deben ignorar al momento de trakear y commitear archivos a nuestro repositorio. A continuacion veamos las ventajas de hacer uso de éste.
 
 ## ¿Por qué es conveniente incluirlo? 🤔
 
@@ -17,15 +17,16 @@ Para configurar un _.gitignore. se siguen los siguientes pasos:
 1. Crear el archivo `.gitignore` en el directorio raiz del repositorio, manualmente creando un archivo txt vacío y renombrándolo como `.gitignore` o bien usando la terminal.
 
 2. Abrir el archivo `.gitignore` en un editor de texto (ej: [Visual Studio Code](https://code.visualstudio.com) ) y listamos los nombres de los archivos y/o patrones de archivos que deseamos ignorar. 
+
 ❗**IMPORTANTE: cada línea debe contener un solo patrón o archivo.**
 
 ```
 Ejemplo: Ignoramos el archivo ignorado.txt
-_ Dentro del archivo `.gitignore` escribimos la línea
+- Dentro del archivo `.gitignore` escribimos la línea
 
 ignorado.txt
 
-_ Guardamos
+- Guardamos
 ```
 ❗**IMPORTANTE: si el archivo que deseamos ignorar ya está bajo seguimiento de Git, es decir ya ha sido confimado en el repositorio pero queremos dejar de incluirlo en futuros commits, debemos eliminarlo del área de seguimiento(staging area) sin eliminarlo de nuestro sistema de archivos local. Para ello usamos el comando `git rm --cached nombre_del_archivo.txt` . ¡No olvides hacer el commit para confirmar estos nuevos cambios en tu repo!**
 
@@ -33,13 +34,13 @@ _ Guardamos
 
 ```
 Ejemplo: Ignoramos el directorio de dependencias de Node.js, archivos temporales y archivos de compilación
-_ Dentro del archivo `.gitignore` escribimos las líneas
+- Dentro del archivo `.gitignore` escribimos las líneas
 
 *.class
 *.tmp
 /node_modules
 
-_ Gaurdamos
+- Gaurdamos
 ```
 
 4. Finalmente, luego de guardar los cambios, quedará listo para ser agregado en nuestro próximo commit.
